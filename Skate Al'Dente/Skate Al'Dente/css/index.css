@@ -1,0 +1,112 @@
+*
+{
+    padding: 0px;
+    margin: 0 auto;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+
+#brand
+{
+    background-color: #003366;
+    
+}
+
+#brand h1
+{
+    display: inline;
+    margin: 20px;
+    position: absolute;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    bottom: 88%;
+    top: 0.5px;
+    
+}
+
+#brand img 
+{
+    height: 80px;
+}
+
+#horizontal ul
+{
+    list-style-type: none;
+    background-color: #000;
+    font-weight: bold;
+} 
+
+#horizontal ul li
+{
+  display: inline;
+}
+
+#horizontal ul li a
+{
+    margin: 80px;
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    transition: background .4s;
+    
+}
+
+#horizontal li a:hover
+{
+    background-color: #003366;
+}
+
+#main
+{
+    display: flex;
+    justify-content: center;
+}
+
+.card
+{
+    margin: 50px;
+    background-color: #00000018;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+}
+
+.card h1
+{
+    font-size: 21px;
+    padding-top: 10px;
+}
+
+.card p
+{
+    font-size: 16px;
+    padding: 20px 20px;
+}
+.card>img
+{
+    height: 60%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.btn
+{
+    font-size: 17px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.5s background;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    transition: 0.5 background;
+    background-color: rgba(0, 0, 255, 0.726);
+}

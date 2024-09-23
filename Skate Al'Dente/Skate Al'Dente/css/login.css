@@ -1,0 +1,126 @@
+*
+{
+    padding: 0px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+#brand
+{
+    background-color: #003366;
+}
+
+#brand h1
+{
+    display: inline;
+    margin: 40px;
+    position: absolute;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    bottom: 88%;
+    top: 1px;
+}
+
+#brand img 
+{
+    height: 80px;
+}
+
+#horizontal ul
+{
+    box-sizing: border-box;
+    list-style-type: none;
+    background-color: #000;
+    font-weight: bold;
+} 
+
+#horizontal ul li
+{
+  display: inline;
+}
+
+#horizontal ul li a
+{
+    margin: 190px;
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    transition: background .4s;
+    
+}
+
+#horizontal li a:hover
+{
+    background-color: #003366;
+}
+
+#form-container
+{
+    flex: 1;
+    color: #4169e1;
+}
+
+#form-inner
+{
+    margin: 3rem;
+    padding: 3rem;
+    border: 2px solid #6072B1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+}
+
+#form-inner h3
+{
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+
+#form-inner p
+{
+margin-bottom: 1rem;
+}
+
+#register-form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+#name-container
+{
+    display: flex;
+    gap: 0.5rem;
+}
+
+#register-form  input
+{
+    padding: 0.8rem 0.6rem;
+    border: none;
+    border-radius: 3px;
+}
+
+#email
+{
+    min-width: 100%;
+}
+
+#register-form input[type="submit"]
+{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #6072B1;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#register-form input[type="submit"]:hover
+{
+    background-color: #6072B1;
+    color: #fff;
+}
